@@ -1060,18 +1060,11 @@
   <block id="bbef84b0a53276c7c512270e3dbf2029" category="paragraph">Se un gruppo di risorse dispone di backup che risiedono su una macchina virtuale di storage che viene rimossa, i backup successivi di tale gruppo di risorse non vengono eseguiti correttamente.</block>
   <block id="a87f600185266e8baed2f9874a5a9772" category="list-text">Nella pagina *Storage Systems*, selezionare la VM di storage da rimuovere, quindi fare clic su *Delete* (Elimina).</block>
   <block id="75e0ff3834a1232cc1921b91722f6f05" category="list-text">Nella casella di conferma *Remove Storage System* (Rimuovi sistema di storage), selezionare la casella *Delete storage system(s)* (Elimina sistema di storage*), quindi fare clic su *Yes* (Sì) per confermare. *Nota:* sono supportate solo ESXi 7.0U1 e versioni successive.</block>
-  <block id="d1bcb651c16c1e49822b4f7c61910214" category="paragraph"><block ref="882f890d3418627cf43cd6225ef7eb22" category="inline-link-macro-rx"></block>.</block>
-  <block id="15522b8dcb225880b816b8456110deaf" category="summary">Se il client VMware vSphere di SnapCenter inizia a comportarsi in modo errato, potrebbe essere necessario cancellare la cache del browser. Se il problema persiste, riavviare il servizio client VMware vSphere.</block>
-  <block id="fc5672573975422a722953bf5496e5ad" category="section-title">Riavviare il servizio client Web in un vCenter Linux</block>
-  <block id="bbbb4a3d88d4a0dafc319898d6206ae7" category="paragraph">Se vCenter si trova su un'appliance Linux, è necessario utilizzare i comandi Linux per riavviare il servizio client VMware vSphere di SnapCenter.</block>
-  <block id="df005eed1212d84ddce99431a04fc779" category="paragraph">È necessario eseguire vCenter 6.5 o versione successiva.</block>
   <block id="d9ac8e6076d4e4d7529e26c9238771a4" category="list-text">Utilizzare SSH per accedere a vCenter Server Appliance come root.</block>
   <block id="263de88bd463a408f8eabe4c8a4ace37" category="list-text">Per accedere a Appliance Shell o BASH Shell, utilizzare il seguente comando:</block>
   <block id="ad288d5d0843f98ebb574a6ae9d65a4e" category="paragraph"><block ref="2591c98b70119fe624898b1e424b5e91" prefix="" category="inline-code"></block></block>
   <block id="76acab39397c08b9a6f90dc3612ad3b4" category="list-text">Arrestare il servizio client Web utilizzando il seguente comando HTML5:</block>
   <block id="fe179a5e6c3cce08786099d7d4f4c814" category="paragraph"><block ref="4ad331c0aae87e53252a4e9c0fb7b3fe" prefix="" category="inline-code"></block></block>
-  <block id="4c09019cb803ffc62d7d0666df0def34" category="list-text">Eliminare tutti i pacchetti scvm obsoleti su vCenter utilizzando il seguente comando HTML5:</block>
-  <block id="7f52ae2d13fc881eab436a11ad6556a4" category="paragraph"><block ref="ca3710e05c94c666b5609593ee562322" prefix="" category="inline-code"></block></block>
   <block id="9246d25288272bdfe6c58f34a564ec38" category="admonition">Non rimuovere i pacchetti VASA o vCenter 7.x e versioni successive.</block>
   <block id="1ee241c7544c04de9f1ca46058beb4cb" category="list-text">Avviare il servizio client Web utilizzando il seguente comando HTML5:</block>
   <block id="6b76a32b7668e5fed9b8e910943fdee7" category="paragraph"><block ref="bfbe7f4b006f6fcfc7bb66e075309067" prefix="" category="inline-code"></block></block>
@@ -1577,7 +1570,6 @@
   <block id="a98b46e8dc0787e4a139fb1be67e3938" category="paragraph">Ogni nome API REST include il numero di versione di SnapCenter in cui è stata rilasciata per la prima volta l'API REST. Ad esempio, l'API REST<block ref="00dc830fa803616a49708e2e3e3c8b5b" prefix=" " category="inline-code"></block> è stata rilasciata per la prima volta in SnapCenter 4,1.</block>
   <block id="85505477b7b3ad4a3b0be0e4741456cf" category="paragraph">Le API REST nelle release future saranno di solito compatibili con le versioni precedenti e verranno modificate per adattarsi alle nuove funzionalità in base alle necessità.</block>
   <block id="0732e8e379c23dc5fb5e0055374a7f1d" category="summary">Se il client VMware vSphere di SnapCenter inizia a comportarsi in modo errato, potrebbe essere necessario cancellare la cache del browser. Se il problema persiste, riavviare il servizio del client Web.</block>
-  <block id="ae6aa491e5b4d2d79971ced34f86c80e" category="section-title">Riavviare il servizio client VMware vSphere in un vCenter Linux</block>
   <block id="e570bf7b85385c5bda85ef035051e28f" category="paragraph">È necessario eseguire vCenter 7.0U1 o versione successiva.</block>
   <block id="2ee1caebace3a32360ade0d209b1e8ac" category="list-text">Eliminare tutti i pacchetti HTML5 scvm obsoleti su vCenter utilizzando il seguente comando shell:</block>
   <block id="af6d7d31c35cf99b12c13a1c1f334d32" category="paragraph"><block ref="3d6deff69cb4148925c5d031dca2f3e7" prefix="" category="inline-code"></block></block>
@@ -2103,4 +2095,5 @@
   <block id="c257f5c852c12409e63afb17104f69c5" category="sidebar">API REST</block>
   <block id="a3d53cfe9124531cb5f9bbfefe704326" category="sidebar">Flussi di lavoro delle API REST per modificare le pianificazioni integrate</block>
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">Eseguire l'aggiornamento a una nuova patch della stessa release</block>
+  <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>.</block>
 </blocks>
