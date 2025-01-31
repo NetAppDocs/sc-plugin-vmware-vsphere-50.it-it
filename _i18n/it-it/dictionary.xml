@@ -2051,7 +2051,6 @@
   <block id="5a2083853297d8e177a0fe4d54c85aad" category="paragraph">Questa attività consente di modificare le impostazioni predefinite del registro di controllo.</block>
   <block id="bf59ac9161d0f4561a155103d8ea2d10" category="list-text">Nel riquadro *Impostazioni registro di controllo*, immettere il numero massimo di file di registro di controllo e il limite di dimensioni del file di registro di controllo.</block>
   <block id="f1505fcf11606ca7535d26bceed3763b" category="sidebar">Il plug-in SnapCenter per VMware vSphere (SCV) è un'appliance virtuale basata su Linux. In quanto standalone, offre operazioni di backup e ripristino rapide, efficienti in termini di spazio, coerenti con i crash e coerenti con le macchine virtuali per macchine virtuali, archivi dati e VMDK. Funziona anche con il server SnapCenter per supportare operazioni di backup e ripristino basate su applicazioni in ambienti VMware per plug-in specifici dell'applicazione SnapCenter. Questa libreria di documentazione descrive il plug-in SnapCenter per VMware vSphere versioni 5,0.</block>
-  <block id="8c3d0c00ea667e3e0723e5cdc6473a09" category="sidebar">Plug-in SnapCenter per la documentazione di VMware vSphere</block>
   <block id="35b654fd14f12a33551c1993b5321fcb" category="sidebar">Il plug-in SnapCenter per VMware vSphere (SCV) è un'appliance virtuale basata su Linux. In quanto standalone, offre operazioni di backup e ripristino rapide, efficienti in termini di spazio, coerenti con i crash e coerenti con le macchine virtuali per macchine virtuali, archivi dati e VMDK. Funziona anche con il server SnapCenter per supportare operazioni di backup e ripristino basate su applicazioni in ambienti VMware per plug-in specifici dell'applicazione SnapCenter.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">Note di rilascio</block>
@@ -2096,4 +2095,5 @@
   <block id="a3d53cfe9124531cb5f9bbfefe704326" category="sidebar">Flussi di lavoro delle API REST per modificare le pianificazioni integrate</block>
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">Eseguire l'aggiornamento a una nuova patch della stessa release</block>
   <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2baf69e920d271345d54408c922dc4e" category="sidebar">Documentazione del plug-in SnapCenter per VMware vSphere 5,0</block>
 </blocks>

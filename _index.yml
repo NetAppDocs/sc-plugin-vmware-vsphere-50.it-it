@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: Plug-in SnapCenter per la documentazione di VMware vSphere
+  title: Documentazione del plug-in SnapCenter per VMware vSphere 5,0
   summary: Il plug-in SnapCenter per VMware vSphere (SCV) è un'appliance virtuale
     basata su Linux. In quanto standalone, offre operazioni di backup e ripristino
     rapide, efficienti in termini di spazio, coerenti con i crash e coerenti con le
